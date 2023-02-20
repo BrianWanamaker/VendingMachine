@@ -81,8 +81,8 @@ class VendingMachine{
             System.out.println("You have been refunded $" + balance);
          }
          else
-         {
-            // give exact change 
+         { 
+            System.out.println("You've inserted $" + balance + " your change is $" + (balance - candy.get(num).getPrice()));
          }
     }
 }
