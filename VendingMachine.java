@@ -84,6 +84,7 @@ class VendingMachine{
          { 
             System.out.println("You've inserted $" + balance + " your change is $" + (balance - candy.get(num).getPrice()));
          }
+         System.out.println("Have a good day! Enjoy the " + candy.get(num).item);
     }
 }
 class candy
